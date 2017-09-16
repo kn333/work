@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="424.0"
+			prefWidth="626.0"
+			xmlns:fx="http://javafx.com/fxml/1"
+			xmlns="http://javafx.com/javafx/8"
+			fx:controller="application.translitWindowController">
+   <children>
+      <Button 	id="translitButton"
+      			fx:id="translitButton"
+      			layoutX="19.0"
+      			layoutY="189.0"
+      			mnemonicParsing="false"
+      			onAction="#translitAction"
+      			text="Translit it" />
+      			
+      <TextArea fx:id="beforeTranslitText"
+      			layoutX="19.0"
+      			layoutY="20.0"
+      			prefHeight="158.0"
+      			prefWidth="590.0" />
+      			
+      <TextArea fx:id="afterTranslitText"
+      			layoutX="20.0"
+      			layoutY="232.0"
+      			prefHeight="173.0"
+      			prefWidth="590.0" />
+   </children>
+</AnchorPane>
