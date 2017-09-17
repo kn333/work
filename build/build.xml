@@ -22,7 +22,7 @@
 	
 		<mkdir dir="project" />
 		<copy todir="project">
-			<fileset dir="C:\Users\Katjuscha\workspace\translit">
+			<fileset dir="../">
 				<include name="src/**" />
 			</fileset>
 		</copy>

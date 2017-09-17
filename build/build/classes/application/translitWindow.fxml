@@ -10,7 +10,7 @@
 			prefWidth="626.0"
 			xmlns:fx="http://javafx.com/fxml/1"
 			xmlns="http://javafx.com/javafx/8"
-			fx:controller="application.translitWindowController">
+			fx:controller="application.TranslitWindowController">
    <children>
       <Button 	id="translitButton"
       			fx:id="translitButton"
